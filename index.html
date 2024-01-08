@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Page Title</title>
+
+    <style>
+
+      * {margin:0; box-sizing:border-box;}
+      ul, ol, li {list-style:none; margin:0; padding:0;}
+      a { text-decoration: none; color: black;}
+
+      #logo {width:1260px; height:170px; margin:0 auto; }
+      #logo > h1 > a > img {width:220px; height:60px; margin :50px 0 0 150px;}
+      #logo > nav {width:1100px; height:35px; margin: 0px 0 0 150px; }
+      #logo > nav > ul {width:1150px; height:35px; margin:0 0 0 120px; }
+      #logo > nav > ul > li > a {text-decoration:none; float:left; margin:5px 0 0 50px; color:black; font-weight:bold;}
+      #logo > nav > ul > li > a:hover {opacity:0.5;}
+      #logo >.icon {width:70px; height:70px; float:right; margin:0px 0 0 40px;}
+      #logo >.icon >a:hover {opacity:0.5;}
+      #logo > input {width:500px; height:20px; margin:0 100px; border:1px solid #1b5ac2; background: #ffffff;}
+      #logo > button { border: 0px; background:#1b5ac2; outline: none;  color:#ffffff}
+
+
+
+
+      #slider {width:1260px; height:600px; margin:0 auto; background-color:tomato;}
+      #slider > a > img {width:100%; height:100%;}
+
+      #main {width:1200px; height:1060px; margin:0 auto; border:3px solid #ddd;}
+      #main >.box {width:230px; height:320px; margin:25px 0 0 55px; float:left;  border:1px solid #ddd; padding:10px;}
+      #main >.box > a > img {width:100%; height:200px; }
+
+      #main >.box > p > a {font-size:15px; color:black;}
+      #main >.box > h4 { width:70px;}
+      #main >.box > img {width:60px; height:15px; margin:0px 0 0 0px;}
+      #main >.box:hover {background: skyblue;}
+      #main >.box > a > img:hover {transform: scale(1.4); }
+      #main >.box > a > img {transition: all 0.2s linear; }
+
+      #foot {width:1200px; height:250px; margin:0 auto;}
+      #foot >.logo2 > a > img {width:120px; height:60px; margin :10px 0 0 10px;}
+      #foot >.ul > ul {font-size:16px; color:#666; width:1200px; height:50px; float:left; margin:20px 0 0 0px; border:3px solid #ddd;}
+      #foot >.ul > ul > li {float:left; margin:0 20px;}
+      #foot >.p1 >  p {font-size:18px; float:left; width:330px; margin:-70px 0 0 150px; color:gray;}
+      #foot >.p2 > p {font-size:18px; float:right; width:350px; margin:-70px 0 0 0px; color:gray;}
+      #foot >.sp  {float:left; margin:-70px 20px;}
+      #foot >.sp > span > a {color:black;}
+
+      #foot2 {width:1500px; height:150px; margin:0 auto; background-color:#333;}
+      #foot2 > p {font-size:14px; float:left; margin:0px 0 0 100px; color:#ddd;}
+
+    </style>
+
+  </head>
+
+  <body>
+
+
+
+    <div id="logo">
+
+
+
+      <div class="icon">
+        <a href="#"><img src="https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_new_gnb.svg#person" alt="아이콘1"></a>
+        <p>마이쿠팡</p>
+      </div>
+      <div class="icon">
+        <a href="#"><img src="https://static.coupangcdn.com/image/coupang/common/pc_header_img_sprite_new_gnb.svg#cart" alt="아이콘2"></a>
+        <p>장바구니</p>
+      </div>
+
+      <h1>
+        <a href="#"><img src="https://image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png" alt="로고"></a>
+      </h1>
+
+
+      <input type="text" placeholder="찾고 싶은 상품을 검색해보세요!">
+      <button>검색</button>
+
+
+      <nav>
+        <ul>
+          <li><a href="#">쿠팡플레이</a></li>
+          <li><a href="#">로켓배송</a> </li>
+          <li><a href="#">로켓프레시</a></li>
+          <li><a href="#">다시 구매</a></li>
+          <li><a href="#">쿠팡비즈</a></li>
+          <li><a href="#">로켓직구</a></li>
+          <li><a href="#">골드박스</a></li>
+          <li><a href="#">와우회원할인</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+
+    <div id="slider">
+
+      <a href="#"><img src ="https://image7.coupangcdn.com/image/ccm/banner/d75c830b860952fe15876b12326801e3.jpg" alt="슬라이더"></a>
+
+    </div>
+
+
+
+    <div id="main">
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/2023/09/27/15/5/36220659-52ac-4cd0-8336-580c34ec41dd.jpg" alt="상품1"></a>
+        <p><a href="#">만렙 블루투스 멀티페어링 무선 휴대용 키보드, 텐키리스.</a></p>
+        <h4><a href="#">34,900원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail9.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/353641145027419-8997bd73-5d86-4496-894d-0206547067e0.jpg" alt="상품2"></a>
+        <p><a href="#">앳플리 T8 스마트 더블스마트 인 바디 체중계, T8scale 흰색</a></p>
+        <h4><a href="#">22,230원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/1798407153034229-9aef620d-661f-44a4-b39f-c06149ee6585.jpg" alt="상품3"></a>
+        <p><a href="#">씨티오 LED 7단 파노라마 학습용 스탠드, 화이트</a></p>
+        <h4><a href="#">24,000원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail7.coupangcdn.com/thumbnails/remote/160x160ex/image/vendor_inventory/6f02/206c202329639b31d569f968732b9d30a6a19477dda4f08cd6d8b3505eb0.jpg" alt="상품4"></a>
+        <p><a href="#">메디니스 로켓 핸드 마사지기 블루 MDM-770</a></p>
+        <h4><a href="#">7,9000원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail6.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/f44a/1c1985e2f8038fdf26b3feeccdcacda49b91a94bd488bcc39eee54ab2f8c.jpg" alt="상품5"></a>
+        <p><a href="#">[루루축산] 삼겹살 보쌈수육용 1+1 총 1kg, 1팩</a></p>
+        <h4><a href="#">14,310원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/b235/d44d300d7e1481e077aebd92bfd45a5c0d9d866a812b07851dbe70a48887.jpg" alt="상품6"></a>
+        <p><a href="#">해남 달망 밤고구마, 5kg(한입), 1박스</a></p>
+        <h4><a href="#">12,900원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail6.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/a848/4492d9357b3d5a437bd3c01aeb2428c62f30ce7ba86c1efbacaeac75de4c.jpg" alt="상품7"></a>
+        <p><a href="#">맛있는 찰옥수수 냉동 옥수수 10개</a></p>
+        <h4><a href="#">12,500원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/247748954037620-9ad7b979-80af-420c-b6da-dca7d87eed48.jpg" alt="상품8"></a>
+        <p><a href="#">뉴트리원 알티지 오메가3 트리플, 60정, 3개</a></p>
+        <h4><a href="#">36,700원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/108047828702498-c1643915-6627-481a-a987-bc9d06a390b0.jpg" alt="상품9"></a>
+        <p><a href="#">신일 T/C 전기요, 혼합색상, 더블 (135 x 180 cm)</a></p>
+        <h4><a href="#">75,500원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail10.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/19633725484044-d8c9be94-4f47-439c-819e-c555c58aa124.jpg" alt="상품10"></a>
+        <p><a href="#">그래이불 순수 유기농 오가닉 선염 코튼100 차렴이불</a></p>
+        <h4><a href="#">57,900원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail6.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/2022/12/12/11/4/c5df456e-c515-4b7a-a927-aadf2b417a84.jpg" alt="상품11"></a>
+        <p><a href="#">퍼플고릴라 강력한 멀티트리머 코털제거기</a></p>
+        <h4><a href="#">24,900원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+      <div class="box">
+        <a href="#"><img src="https://thumbnail7.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/276477797034055-edbf84ae-0fcb-471f-848e-a6e6d40ad9ef.jpg" alt="상품12"></a>
+        <p><a href="#">담다 분리수거 배접 쓰레기봉투 유백 200p, 60L, 1개</a></p>
+        <h4><a href="#">10,840원</a></h4>
+        <img src="https://image6.coupangcdn.com/image/cmg/icon/ios/logo_rocket_large@3x.png" alt="로켓배송">
+      </div>
+
+
+    </div>
+
+
+
+    <div id="foot">
+      <div class="ul">
+        <ul>
+          <li><a href="#">회사소개</a></li>
+          <li>|</li>
+          <li><a href="#">Invetor Relations</a></li>
+          <li>|</li>
+          <li><a href="#">인재채용</a></li>
+          <li>|</li>
+          <li><a href="#">입점 / 제휴문의</a></li>
+          <li>|</li>
+          <li><a href="#">공지사항</a></li>
+          <li>|</li>
+          <li><a href="#">고객의 소리</a></li>
+          <li>|</li>
+          <li><a href="#">개인정보 처리방침</a></li>
+        </ul>
+      </div>
+
+      <div class="logo2">
+        <a href="#"><img src="https://image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png" alt="로고2"></a>
+      </div>
+
+      <div class="p1">
+        <p>
+          상호명 및 호스팅 서비스 제공 : 쿠팡(주)<br>
+          대표이사 : 강한승,박대준<br>
+          서울시 송파구 송파대로 570<br>
+          사업자 등록번호 : 120-88-00767<br>
+          통신판매업신고 : 2017-서울송파-0680<br>
+          <a href="#">사업자정보 확인 ></a>
+        </p>
+      </div>
+
+      <div class="sp">
+        <span>
+          <a href="#"><b>365고객센터</b> | 전자금융거래분쟁처리담당<br>
+            <h1>1577-7011 (유료)</h1><br>
+            서울시 송파구 송파대로 570<br>
+            email:help@coupang.com</a>
+        </span>
+      </div>
+
+      <div class="p2">
+        <p>
+          <strong>우리은행 채무지급보증 안내</strong><br>
+          당사는 고객님이 현금 결제한 금액에 대해<br>
+          우리은행과 채무지급보증 계약을 체결하여<br>
+          안전거래를 보장하고 있습니다.<br>
+          <a href="#">서비스 가입사실 확인 ></a>
+        </p>
+      </div>
+
+
+    </div>
+
+
+    <div id=foot2>
+      <p>사이버몰 내 판매되는 상품 중에는 쿠팡에 등록한 개별 판매자가 판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다.<br>
+        마켓플레이스(오픈마켓) 상품의 경우 쿠팡은 통신판매중개자이며 통신판매의 당사자가 아닙니다.<br>
+        쿠팡은 마켓플레이스(오픈마켓) 상품, 거래정보 및 거래 등에 대하여 책임을 지지 않습니다.<br>
+        쿠팡은 소비자 보호와 안전거래를 위해 신뢰관리센터(CM112@coupang.com)를 운영하고 있으며, 관련 분쟁이 발생할 경우 별도의 분쟁 처리절차에 의거 분쟁이 처리됩니다.<br>
+        Copyright © Coupang Corp. 2010-2022 All Rights Reserved.</p>
+    </div>
+
+
+
+  </body>
+
+</html>
+
+
+
